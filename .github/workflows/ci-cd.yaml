@@ -38,7 +38,7 @@ jobs:
         with:
           method: service-account
           k8s-url: https://194.87.146.7:6443/
-          k8s-secret: ${{ secrets.KUBE_SECRET-ART-1 }}
+          k8s-secret: ${{ secrets.KUBE_SECRET_ART_1 }}
 
       - name: Checkout source code
         uses: actions/checkout@v3
