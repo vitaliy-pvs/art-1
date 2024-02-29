@@ -52,3 +52,5 @@ jobs:
             kubernetes/service.yml
           images: |
             ghcr.io/vitaliy-pvs/art-1:${{ github.sha }}
+
+ #комментарий
